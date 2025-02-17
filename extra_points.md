@@ -23,6 +23,6 @@
   *Shell switching can be disruptive, and you may lose the context of the initial bash shell after execution*
 
 - To source any file
-  > source <file_path>
+  `source <file_path>`
 - Syntax for defining an alias in bash
   `alias <alias_name>='<command>'`
