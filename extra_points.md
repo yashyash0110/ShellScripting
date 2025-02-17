@@ -7,8 +7,13 @@
 - Helps in conditional statements to take different actions based on success/failure.
 
 >mkdir test_folder
+
 >if [[ $? -eq 0 ]]; then
+
 >  echo "Folder created successfully!"
+
 >else 
+
 >  echo "Failed to create folder"
+
 >fi
