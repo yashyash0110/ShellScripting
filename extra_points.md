@@ -24,3 +24,5 @@
 
 - To source any file
   > source <file_path>
+- Syntax for defining an alias in bash
+  >alias <alias_name>='<command>'
