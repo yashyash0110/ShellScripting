@@ -1,0 +1,2 @@
+chmod +x <file_name> : Approves few permissions of the file
+nohup ./<file_name> : Runs the script in the background, it will not stop even after terminating the shell. It will create a nohup.out file. 

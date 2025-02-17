@@ -1,0 +1,9 @@
+10
+20
+Hello
+35
+All the values in the array: 10 20 Hello 35 Google 21
+Length of the array is: 6
+Values from index 2 to 4: Hello 35 Google
+Values of the new array: 10 20 Hello 35 Google 21 30 Nvidia
+yash

@@ -1,0 +1,19 @@
+Connectivity Check : ping -c 1 <website_name>
+
+ * This checks if the connection is successful or not
+
+RANDOM : Generates a random integer value from 0 to 32767
+
+UID : User Id of the user, that you are currently logged in as (For root user it will return 0)
+
+sudo su - : Opens root user mode
+exit : Exit Command
+
+Redirection
+Ex: ping -c 1 www.google.com > redirect.log
+   
+   * The output will be saved in the log file.
+   * If you want to add any other data to the same file then you will have to use >> command, like
+   date >> redirect.log (Appends date below the previous data)
+
+
