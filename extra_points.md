@@ -20,4 +20,7 @@
   ...tcsh script runs...
   exit # Once tcsh finishes, you return to bash
   ```
-  *Shell switching can be disruptive, and you may lose the context of the initial bash shell after execution* 
+  *Shell switching can be disruptive, and you may lose the context of the initial bash shell after execution*
+
+- To source any file
+  > source <file_path>
