@@ -14,3 +14,10 @@
     echo "Failed to create folder"
   fi
   ```
+- To switch to tcsh and then back to bash:
+  ```
+  exec tcsh # Switched to tcsh
+  ...tcsh script runs...
+  exit # Once tcsh finishes, you return to bash
+  ```
+  *Shell switching can be disruptive, and you may lose the context of the initial bash shell after execution* 
