@@ -6,14 +6,14 @@
   - Used in error handling to check if a command succeeded.
   - Helps in conditional statements to take different actions based on success/failure.
 
-  `
+  ```
   mkdir test_folder
   if [[ $? -eq 0 ]]; then
     echo "Folder created successfully!"
   else 
     echo "Failed to create folder"
   fi
-  `
+  ```
 - To switch to tcsh and then back to bash:
   ```
   exec tcsh # Switched to tcsh
